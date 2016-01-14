@@ -52,10 +52,11 @@ public class Register extends AppCompatActivity {
                     c.setPassword(pass.getText().toString());
 
                     databaseHelper.insertContact(c);
+                    Toast.makeText(getApplicationContext(), "User succesfully stored!", Toast.LENGTH_LONG).show();
+                    Intent i = new Intent(getApplicationContext(),MainActivity.class);
+                    startActivity(i);
                 }
-                Toast.makeText(getApplicationContext(), "User succesfully stored!", Toast.LENGTH_LONG).show();
-                Intent i = new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(i);
+
             }
         });
     }
