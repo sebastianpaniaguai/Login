@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="AppID">102058556843013</string>
+    <string name="welcome">Welcome to</string>
+    <string name="username">Username or email</string>
+    <string name="password">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="login">LOG IN</string>
+    <string name="or">or</string>
+    <string name="Info">Your baby will begin an endless journey through reading!</string>
+    <string name="insert">Please insert your personal data in the boxes</string>
+    <string name="google">Iniciar sesión con Google</string>
+    <string name="SO">Salir</string>
+    <string name="saludo">Hello!</string>
+    <string name="signed_int_fmt">%s</string>
+</resources>
