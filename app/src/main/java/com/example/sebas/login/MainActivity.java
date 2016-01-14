@@ -99,7 +99,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
                 String Password=databaseHelper.searchPass(uname);
                 if(password.equals(Password)){
-                    flag=true;
+                    preferenceEditor.putBoolean("flag",true);
+                    preferenceEditor.putString("name",uname);
+                    preferenceEditor.commit();
                     Intent i = new Intent(MainActivity.this, Mostrar.class);
                     i.putExtra("nombre",uname);
                     startActivity(i);
