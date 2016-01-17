@@ -19,6 +19,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_EMAIL = "email";
     private static final String COLUMN_USERNAME = "username";
     private static final String COLUMN_PASS = "pass";
+
     SQLiteDatabase db;
 
     private static final String TABLE_CREATE = "create table contact (id integer primary key not null , "+

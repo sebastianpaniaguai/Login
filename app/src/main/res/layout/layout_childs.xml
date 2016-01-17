@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100sp"
+        android:layout_weight="3"
+        android:id="@+id/imagen"
+        android:src="@drawable/cara_nino"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100sp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aurelio Cheveroni"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/nameKid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nivel:"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/levelKid"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catalán"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/languageKid"/>
+    </LinearLayout>
+</LinearLayout>

@@ -12,5 +12,21 @@
     <string name="google">Iniciar sesión con Google</string>
     <string name="SO">Salir</string>
     <string name="saludo">Hello!</string>
+    <string name="New">+ New!</string>
+    <string name="RegistKid">You are registering your child. Please insert the information requested below</string>
     <string name="signed_int_fmt">%s</string>
+    <string name="name">Name</string>
+    <string name="sex">Sex</string>
+    <string name="date">Date</string>
+    <string name="language">Language</string>
+    <string name="time">Time</string>
+    <string name="finish">Finish</string>
+    <string-array name="kidsex">
+        <item>Girl</item>
+        <item>Boy</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Español</item>
+        <item>English</item>
+    </string-array>
 </resources>

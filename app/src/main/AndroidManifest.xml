@@ -37,8 +37,9 @@
             android:authorities="com.facebook.app.FacebookContentProvider1234"
             android:exported="true" />
 
-        <activity android:name=".Mostrar"></activity>
-        <activity android:name=".Register"></activity>
+        <activity android:name=".Mostrar" />
+        <activity android:name=".Register" />
+        <activity android:name=".KidRegister"></activity>
     </application>
 
 </manifest>
